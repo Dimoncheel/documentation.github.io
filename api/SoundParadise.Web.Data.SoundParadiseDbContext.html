@@ -1,0 +1,1195 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SoundParadiseDbContext
+ </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SoundParadiseDbContext
+ ">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext">
+
+
+
+  <h1 id="SoundParadise_Web_Data_SoundParadiseDbContext" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext" class="text-break">Class SoundParadiseDbContext
+</h1>
+  <div class="markdown level0 summary"><p>Data base context.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext">DbContext</a></div>
+    <div class="level2"><span class="xref">SoundParadiseDbContext</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.infrastructure.iinfrastructure-1">IInfrastructure</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.internal.idbcontextdependencies">IDbContextDependencies</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.internal.idbsetcache">IDbSetCache</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.internal.idbcontextpoolable">IDbContextPoolable</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.infrastructure.iresettableservice">IResettableService</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncdisposable">IAsyncDisposable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.set#microsoft-entityframeworkcore-dbcontext-set-1">DbContext.Set&lt;TEntity&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.set#microsoft-entityframeworkcore-dbcontext-set-1(system-string)">DbContext.Set&lt;TEntity&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechanges#microsoft-entityframeworkcore-dbcontext-savechanges">DbContext.SaveChanges()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechanges#microsoft-entityframeworkcore-dbcontext-savechanges(system-boolean)">DbContext.SaveChanges(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechangesasync#microsoft-entityframeworkcore-dbcontext-savechangesasync(system-boolean-system-threading-cancellationtoken)">DbContext.SaveChangesAsync(bool, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.dispose">DbContext.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.disposeasync">DbContext.DisposeAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.entry#microsoft-entityframeworkcore-dbcontext-entry-1(-0)">DbContext.Entry&lt;TEntity&gt;(TEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.entry#microsoft-entityframeworkcore-dbcontext-entry(system-object)">DbContext.Entry(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.add#microsoft-entityframeworkcore-dbcontext-add-1(-0)">DbContext.Add&lt;TEntity&gt;(TEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addasync#microsoft-entityframeworkcore-dbcontext-addasync-1(-0-system-threading-cancellationtoken)">DbContext.AddAsync&lt;TEntity&gt;(TEntity, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.attach#microsoft-entityframeworkcore-dbcontext-attach-1(-0)">DbContext.Attach&lt;TEntity&gt;(TEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.update#microsoft-entityframeworkcore-dbcontext-update-1(-0)">DbContext.Update&lt;TEntity&gt;(TEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.remove#microsoft-entityframeworkcore-dbcontext-remove-1(-0)">DbContext.Remove&lt;TEntity&gt;(TEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.add#microsoft-entityframeworkcore-dbcontext-add(system-object)">DbContext.Add(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addasync#microsoft-entityframeworkcore-dbcontext-addasync(system-object-system-threading-cancellationtoken)">DbContext.AddAsync(object, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.attach#microsoft-entityframeworkcore-dbcontext-attach(system-object)">DbContext.Attach(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.update#microsoft-entityframeworkcore-dbcontext-update(system-object)">DbContext.Update(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.remove#microsoft-entityframeworkcore-dbcontext-remove(system-object)">DbContext.Remove(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addrange#microsoft-entityframeworkcore-dbcontext-addrange(system-object())">DbContext.AddRange(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addrangeasync#microsoft-entityframeworkcore-dbcontext-addrangeasync(system-object())">DbContext.AddRangeAsync(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.attachrange#microsoft-entityframeworkcore-dbcontext-attachrange(system-object())">DbContext.AttachRange(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.updaterange#microsoft-entityframeworkcore-dbcontext-updaterange(system-object())">DbContext.UpdateRange(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.removerange#microsoft-entityframeworkcore-dbcontext-removerange(system-object())">DbContext.RemoveRange(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addrange#microsoft-entityframeworkcore-dbcontext-addrange(system-collections-generic-ienumerable((system-object)))">DbContext.AddRange(IEnumerable&lt;object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addrangeasync#microsoft-entityframeworkcore-dbcontext-addrangeasync(system-collections-generic-ienumerable((system-object))-system-threading-cancellationtoken)">DbContext.AddRangeAsync(IEnumerable&lt;object&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.attachrange#microsoft-entityframeworkcore-dbcontext-attachrange(system-collections-generic-ienumerable((system-object)))">DbContext.AttachRange(IEnumerable&lt;object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.updaterange#microsoft-entityframeworkcore-dbcontext-updaterange(system-collections-generic-ienumerable((system-object)))">DbContext.UpdateRange(IEnumerable&lt;object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.removerange#microsoft-entityframeworkcore-dbcontext-removerange(system-collections-generic-ienumerable((system-object)))">DbContext.RemoveRange(IEnumerable&lt;object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.find#microsoft-entityframeworkcore-dbcontext-find(system-type-system-object())">DbContext.Find(Type, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.findasync#microsoft-entityframeworkcore-dbcontext-findasync(system-type-system-object())">DbContext.FindAsync(Type, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.findasync#microsoft-entityframeworkcore-dbcontext-findasync(system-type-system-object()-system-threading-cancellationtoken)">DbContext.FindAsync(Type, object[], CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.find#microsoft-entityframeworkcore-dbcontext-find-1(system-object())">DbContext.Find&lt;TEntity&gt;(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.findasync#microsoft-entityframeworkcore-dbcontext-findasync-1(system-object())">DbContext.FindAsync&lt;TEntity&gt;(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.findasync#microsoft-entityframeworkcore-dbcontext-findasync-1(system-object()-system-threading-cancellationtoken)">DbContext.FindAsync&lt;TEntity&gt;(object[], CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.fromexpression">DbContext.FromExpression&lt;TResult&gt;(Expression&lt;Func&lt;IQueryable&lt;TResult&gt;&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.database">DbContext.Database</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.changetracker">DbContext.ChangeTracker</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.model">DbContext.Model</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.contextid">DbContext.ContextId</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savingchanges">DbContext.SavingChanges</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savedchanges">DbContext.SavedChanges</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechangesfailed">DbContext.SaveChangesFailed</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SoundParadise.html">SoundParadise</a>.<a class="xref" href="SoundParadise.Web.html">Web</a>.<a class="xref" href="SoundParadise.Web.Data.html">Data</a></h6>
+  <h6><strong>Assembly</strong>: SoundParadise.Web.dll</h6>
+  <h5 id="SoundParadise_Web_Data_SoundParadiseDbContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class SoundParadiseDbContext : DbContext, IInfrastructure&lt;IServiceProvider&gt;, IDbContextDependencies, IDbSetCache, IDbContextPoolable, IResettableService, IDisposable, IAsyncDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext__ctor_Microsoft_EntityFrameworkCore_DbContextOptions_SoundParadise_Web_Data_SoundParadiseDbContext__Microsoft_Extensions_Hosting_IHostEnvironment_SoundParadise_Web_Services_HashingService_.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.%23ctor(Microsoft.EntityFrameworkCore.DbContextOptions%7BSoundParadise.Web.Data.SoundParadiseDbContext%7D%2CMicrosoft.Extensions.Hosting.IHostEnvironment%2CSoundParadise.Web.Services.HashingService)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L45">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext__ctor_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.#ctor*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext__ctor_Microsoft_EntityFrameworkCore_DbContextOptions_SoundParadise_Web_Data_SoundParadiseDbContext__Microsoft_Extensions_Hosting_IHostEnvironment_SoundParadise_Web_Services_HashingService_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{SoundParadise.Web.Data.SoundParadiseDbContext},Microsoft.Extensions.Hosting.IHostEnvironment,SoundParadise.Web.Services.HashingService)">SoundParadiseDbContext(DbContextOptions&lt;SoundParadiseDbContext&gt;, IHostEnvironment, HashingService)</h4>
+  <div class="markdown level1 summary"><p>Constructor for SoundParadiseDbContext.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SoundParadiseDbContext(DbContextOptions&lt;SoundParadiseDbContext&gt; options, IHostEnvironment environment, HashingService hashingService)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontextoptions-1">DbContextOptions</a>&lt;<a class="xref" href="SoundParadise.Web.Data.SoundParadiseDbContext.html">SoundParadiseDbContext</a>&gt;</td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Option.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.ihostenvironment">IHostEnvironment</a></td>
+        <td><span class="parametername">environment</span></td>
+        <td><p>Environment.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SoundParadise.Web.Services.HashingService.html">HashingService</a></td>
+        <td><span class="parametername">hashingService</span></td>
+        <td><p>Hashing service.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_AllSalesAccumulators.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.AllSalesAccumulators%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L115">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_AllSalesAccumulators_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.AllSalesAccumulators*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_AllSalesAccumulators" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.AllSalesAccumulators">AllSalesAccumulators</h4>
+  <div class="markdown level1 summary"><p>Dbset all sales accumulator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;AllSalesAccumulator&gt; AllSalesAccumulators { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Accumulators.AllSalesAccumulator.AllSalesAccumulator.html">AllSalesAccumulator</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_Cards.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.Cards%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L135">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_Cards_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Cards*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_Cards" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Cards">Cards</h4>
+  <div class="markdown level1 summary"><p>Dbset card model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;CardModel&gt; Cards { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Card.CardModel.html">CardModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_CartItems.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.CartItems%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L75">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_CartItems_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.CartItems*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_CartItems" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.CartItems">CartItems</h4>
+  <div class="markdown level1 summary"><p>Dbset CartItems.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;CartItemModel&gt; CartItems { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.CartItem.CartItemModel.html">CartItemModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_Carts.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.Carts%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L71">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_Carts_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Carts*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_Carts" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Carts">Carts</h4>
+  <div class="markdown level1 summary"><p>Dbset Carts.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;CartModel&gt; Carts { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Cart.CartModel.html">CartModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_Categories.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.Categories%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L91">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_Categories_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Categories*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_Categories" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Categories">Categories</h4>
+  <div class="markdown level1 summary"><p>Dbset categories.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;CategoryModel&gt; Categories { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Category.CategoryModel.html">CategoryModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_Comments.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.Comments%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L79">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_Comments_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Comments*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_Comments" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Comments">Comments</h4>
+  <div class="markdown level1 summary"><p>Dbset Comments.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;CommentModel&gt; Comments { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Comment.CommentModel.html">CommentModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_DeliveryAddresses.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.DeliveryAddresses%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L131">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_DeliveryAddresses_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.DeliveryAddresses*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_DeliveryAddresses" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.DeliveryAddresses">DeliveryAddresses</h4>
+  <div class="markdown level1 summary"><p>Dbset delivery address.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;AddressModel&gt; DeliveryAddresses { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Address.AddressModel.html">AddressModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_Images.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.Images%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L83">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_Images_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Images*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_Images" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Images">Images</h4>
+  <div class="markdown level1 summary"><p>Dbset Images.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;ImageModel&gt; Images { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Image.ImageModel.html">ImageModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_Logs.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.Logs%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L59">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_Logs_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Logs*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_Logs" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Logs">Logs</h4>
+  <div class="markdown level1 summary"><p>Dbset logs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;LogModel&gt; Logs { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Log.LogModel.html">LogModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_Orders.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.Orders%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L99">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_Orders_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Orders*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_Orders" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Orders">Orders</h4>
+  <div class="markdown level1 summary"><p>Dbset orders.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;OrderModel&gt; Orders { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Order.OrderModel.html">OrderModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_Parameters.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.Parameters%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L95">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_Parameters_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Parameters*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_Parameters" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Parameters">Parameters</h4>
+  <div class="markdown level1 summary"><p>Dbset parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;ProductParameterModel&gt; Parameters { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.ProductParameter.ProductParameterModel.html">ProductParameterModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_Payments.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.Payments%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L103">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_Payments_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Payments*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_Payments" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Payments">Payments</h4>
+  <div class="markdown level1 summary"><p>Dbset payments.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;PaymentModel&gt; Payments { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.PaymentDetails.PaymentModel.html">PaymentModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_ProductSalesAccumulators.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.ProductSalesAccumulators%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L119">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_ProductSalesAccumulators_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.ProductSalesAccumulators*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_ProductSalesAccumulators" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.ProductSalesAccumulators">ProductSalesAccumulators</h4>
+  <div class="markdown level1 summary"><p>Dbset product sales accumulator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;ProductSalesAccumulator&gt; ProductSalesAccumulators { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Accumulators.ProductSalesAccumulator.ProductSalesAccumulator.html">ProductSalesAccumulator</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_Products.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.Products%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L67">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_Products_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Products*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_Products" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Products">Products</h4>
+  <div class="markdown level1 summary"><p>Dbset products..</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;ProductModel&gt; Products { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Product.ProductModel.html">ProductModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_Subcategories.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.Subcategories%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L87">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_Subcategories_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Subcategories*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_Subcategories" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Subcategories">Subcategories</h4>
+  <div class="markdown level1 summary"><p>Dbset subcategory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;SubcategoryModel&gt; Subcategories { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Subcategory.SubcategoryModel.html">SubcategoryModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_TokenJournals.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.TokenJournals%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L107">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_TokenJournals_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.TokenJournals*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_TokenJournals" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.TokenJournals">TokenJournals</h4>
+  <div class="markdown level1 summary"><p>Dbset token journals.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;TokenJournalModel&gt; TokenJournals { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.TokenJournal.TokenJournalModel.html">TokenJournalModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_Tokens.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.Tokens%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L63">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_Tokens_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Tokens*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_Tokens" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Tokens">Tokens</h4>
+  <div class="markdown level1 summary"><p>Dbset tokens users.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;TokenModel&gt; Tokens { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Token.TokenModel.html">TokenModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_UserAccumulators.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.UserAccumulators%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L111">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_UserAccumulators_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.UserAccumulators*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_UserAccumulators" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.UserAccumulators">UserAccumulators</h4>
+  <div class="markdown level1 summary"><p>Dbset user accumulator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;UserAccumulator&gt; UserAccumulators { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Accumulators.UserAccumulator.UserAccumulator.html">UserAccumulator</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_Users.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.Users%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L55">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_Users_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Users*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_Users" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Users">Users</h4>
+  <div class="markdown level1 summary"><p>Dbset users.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;UserModel&gt; Users { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.User.UserModel.html">UserModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_WishlistProducts.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.WishlistProducts%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L127">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_WishlistProducts_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.WishlistProducts*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_WishlistProducts" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.WishlistProducts">WishlistProducts</h4>
+  <div class="markdown level1 summary"><p>Dbset whislistproducts.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;WishlistProductsModel&gt; WishlistProducts { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Wishlist.WishlistProductsModel.html">WishlistProductsModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_Wishlists.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.Wishlists%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L123">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_Wishlists_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Wishlists*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_Wishlists" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.Wishlists">Wishlists</h4>
+  <div class="markdown level1 summary"><p>Dbset whishlist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;WishlistModel&gt; Wishlists { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Wishlist.WishlistModel.html">WishlistModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L137">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_OnModelCreating_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.OnModelCreating*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">OnModelCreating(ModelBuilder)</h4>
+  <div class="markdown level1 summary"><p>Override this method to further configure the model that was discovered by convention from the entity types
+exposed in <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet&lt;TEntity&gt;</a> properties on your derived context. The resulting model may be cached
+and re-used for subsequent instances of your derived context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnModelCreating(ModelBuilder modelBuilder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.modelbuilder">ModelBuilder</a></td>
+        <td><span class="parametername">modelBuilder</span></td>
+        <td><p>The builder being used to construct the model for this context. Databases (and other extensions) typically
+define extension methods on this object that allow you to configure aspects of the model that are specific
+to a given database.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.onmodelcreating">DbContext.OnModelCreating(ModelBuilder)</a></div>
+  <h5 id="SoundParadise_Web_Data_SoundParadiseDbContext_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+                    If a model is explicitly set on the options for this context (via <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontextoptionsbuilder.usemodel">UseModel(IModel)</a>)
+                    then this method will not be run. However, it will still run when creating a compiled model.
+                </p>
+<p>
+                    See <a href="https://aka.ms/efcore-docs-modeling">Modeling entity types and relationships</a> for more information and
+                    examples.
+                </p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext_SaveChangesAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext.SaveChangesAsync(System.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L587">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Data_SoundParadiseDbContext_SaveChangesAsync_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.SaveChangesAsync*"></a>
+  <h4 id="SoundParadise_Web_Data_SoundParadiseDbContext_SaveChangesAsync_System_Threading_CancellationToken_" data-uid="SoundParadise.Web.Data.SoundParadiseDbContext.SaveChangesAsync(System.Threading.CancellationToken)">SaveChangesAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Saves all changes made in this context to the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Task&lt;int&gt; SaveChangesAsync(CancellationToken cancellationToken = default)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> to observe while waiting for the task to complete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</td>
+        <td><p>A task that represents the asynchronous save operation. The task result contains the
+number of state entries written to the database.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechangesasync#microsoft-entityframeworkcore-dbcontext-savechangesasync(system-threading-cancellationtoken)">DbContext.SaveChangesAsync(CancellationToken)</a></div>
+  <h5 id="SoundParadise_Web_Data_SoundParadiseDbContext_SaveChangesAsync_System_Threading_CancellationToken__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+                    This method will automatically call <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.changetracking.changetracker.detectchanges">DetectChanges()</a>
+                    to discover any changes to entity instances before saving to the underlying database. This can be disabled via
+                    <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.changetracking.changetracker.autodetectchangesenabled">AutoDetectChangesEnabled</a>.
+                </p>
+<p>
+                    Entity Framework Core does not support multiple parallel operations being run on the same DbContext instance. This
+                    includes both parallel execution of async queries and any explicit concurrent use from multiple threads.
+                    Therefore, always await async calls immediately, or use separate DbContext instances for operations that execute
+                    in parallel. See <a href="https://aka.ms/efcore-docs-threading">Avoiding DbContext threading issues</a> for more
+                    information and examples.
+                </p>
+<p>
+                    See <a href="https://aka.ms/efcore-docs-saving-data">Saving data in EF Core</a> for more information and examples.
+                </p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbupdateexception">DbUpdateException</a></td>
+        <td><p>An error is encountered while saving to the database.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbupdateconcurrencyexception">DbUpdateConcurrencyException</a></td>
+        <td><p>A concurrency violation is encountered while saving to the database.
+A concurrency violation occurs when an unexpected number of rows are affected during save.
+This is usually because the data in the database has been modified since it was loaded into memory.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.operationcanceledexception">OperationCanceledException</a></td>
+        <td><p>If the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> is canceled.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.infrastructure.iinfrastructure-1">IInfrastructure&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.internal.idbcontextdependencies">IDbContextDependencies</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.internal.idbsetcache">IDbSetCache</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.internal.idbcontextpoolable">IDbContextPoolable</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.infrastructure.iresettableservice">IResettableService</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncdisposable">IAsyncDisposable</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Data_SoundParadiseDbContext.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Data.SoundParadiseDbContext%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Data/SoundParadiseDbContext.cs/#L35" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+        
+        <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

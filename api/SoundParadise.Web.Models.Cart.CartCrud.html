@@ -1,0 +1,857 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CartCrud
+ </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CartCrud
+ ">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SoundParadise.Web.Models.Cart.CartCrud">
+
+
+
+  <h1 id="SoundParadise_Web_Models_Cart_CartCrud" data-uid="SoundParadise.Web.Models.Cart.CartCrud" class="text-break">Class CartCrud
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">CartCrud</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="SoundParadise.Web.Interfaces.ICartCrud.html">ICartCrud</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SoundParadise.html">SoundParadise</a>.<a class="xref" href="SoundParadise.Web.html">Web</a>.<a class="xref" href="SoundParadise.Web.Models.html">Models</a>.<a class="xref" href="SoundParadise.Web.Models.Cart.html">Cart</a></h6>
+  <h6><strong>Assembly</strong>: SoundParadise.Web.dll</h6>
+  <h5 id="SoundParadise_Web_Models_Cart_CartCrud_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CartCrud : ICartCrud</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Models_Cart_CartCrud__ctor_SoundParadise_Web_Data_SoundParadiseDbContext_SoundParadise_Web_Interfaces_ILoggingService_SoundParadise_Web_Models_Cart_CartCrud__SoundParadise_Web_Interfaces_IProductCrud_SoundParadise_Web_Services_ImageService_.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Models.Cart.CartCrud.%23ctor(SoundParadise.Web.Data.SoundParadiseDbContext%2CSoundParadise.Web.Interfaces.ILoggingService%7BSoundParadise.Web.Models.Cart.CartCrud%7D%2CSoundParadise.Web.Interfaces.IProductCrud%2CSoundParadise.Web.Services.ImageService)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Models/Cart/CartCrud.cs/#L26">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Models_Cart_CartCrud__ctor_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.#ctor*"></a>
+  <h4 id="SoundParadise_Web_Models_Cart_CartCrud__ctor_SoundParadise_Web_Data_SoundParadiseDbContext_SoundParadise_Web_Interfaces_ILoggingService_SoundParadise_Web_Models_Cart_CartCrud__SoundParadise_Web_Interfaces_IProductCrud_SoundParadise_Web_Services_ImageService_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.#ctor(SoundParadise.Web.Data.SoundParadiseDbContext,SoundParadise.Web.Interfaces.ILoggingService{SoundParadise.Web.Models.Cart.CartCrud},SoundParadise.Web.Interfaces.IProductCrud,SoundParadise.Web.Services.ImageService)">CartCrud(SoundParadiseDbContext, ILoggingService&lt;CartCrud&gt;, IProductCrud, ImageService)</h4>
+  <div class="markdown level1 summary"><p>CartCrud constructor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CartCrud(SoundParadiseDbContext context, ILoggingService&lt;CartCrud&gt; loggingService, IProductCrud productCrud, ImageService imageService)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SoundParadise.Web.Data.SoundParadiseDbContext.html">SoundParadiseDbContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>Db context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SoundParadise.Web.Interfaces.ILoggingService-1.html">ILoggingService</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Cart.CartCrud.html">CartCrud</a>&gt;</td>
+        <td><span class="parametername">loggingService</span></td>
+        <td><p>Service for logging errors.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SoundParadise.Web.Interfaces.IProductCrud.html">IProductCrud</a></td>
+        <td><span class="parametername">productCrud</span></td>
+        <td><p>Product Crud.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SoundParadise.Web.Services.ImageService.html">ImageService</a></td>
+        <td><span class="parametername">imageService</span></td>
+        <td><p>Service for image.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Models_Cart_CartCrud_AddCartItem_System_Guid_System_Guid_.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Models.Cart.CartCrud.AddCartItem(System.Guid%2CSystem.Guid)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Models/Cart/CartCrud.cs/#L200">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Models_Cart_CartCrud_AddCartItem_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.AddCartItem*"></a>
+  <h4 id="SoundParadise_Web_Models_Cart_CartCrud_AddCartItem_System_Guid_System_Guid_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.AddCartItem(System.Guid,System.Guid)">AddCartItem(Guid, Guid)</h4>
+  <div class="markdown level1 summary"><p>Get cart Id by user Id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RequestResult AddCartItem(Guid cartId, Guid productId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">cartId</span></td>
+        <td><p>Cart Id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">productId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SoundParadise.Web.Controllers.Api.RequestResult.html">RequestResult</a></td>
+        <td><p>List of CartItemModel objects</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Models_Cart_CartCrud_CartItemExists_System_Guid_System_Guid__.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Models.Cart.CartCrud.CartItemExists(System.Guid%2CSystem.Guid%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Models/Cart/CartCrud.cs/#L65">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Models_Cart_CartCrud_CartItemExists_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.CartItemExists*"></a>
+  <h4 id="SoundParadise_Web_Models_Cart_CartCrud_CartItemExists_System_Guid_System_Guid__" data-uid="SoundParadise.Web.Models.Cart.CartCrud.CartItemExists(System.Guid,System.Guid@)">CartItemExists(Guid, out Guid)</h4>
+  <div class="markdown level1 summary"><p>Check CartItem exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CartItemExists(Guid cartItemId, out Guid cartId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">cartItemId</span></td>
+        <td><p>CartItem Id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">cartId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if exsists, false if not</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Models_Cart_CartCrud_CreateCart_SoundParadise_Web_Models_Cart_CartModel_.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Models.Cart.CartCrud.CreateCart(SoundParadise.Web.Models.Cart.CartModel)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Models/Cart/CartCrud.cs/#L41">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Models_Cart_CartCrud_CreateCart_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.CreateCart*"></a>
+  <h4 id="SoundParadise_Web_Models_Cart_CartCrud_CreateCart_SoundParadise_Web_Models_Cart_CartModel_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.CreateCart(SoundParadise.Web.Models.Cart.CartModel)">CreateCart(CartModel)</h4>
+  <div class="markdown level1 summary"><p>Add cart to data base.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CreateCart(CartModel cart)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SoundParadise.Web.Models.Cart.CartModel.html">CartModel</a></td>
+        <td><span class="parametername">cart</span></td>
+        <td><p>CartModel object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if add, false if not</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Models_Cart_CartCrud_DeleteCart_System_Guid_.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Models.Cart.CartCrud.DeleteCart(System.Guid)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Models/Cart/CartCrud.cs/#L328">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Models_Cart_CartCrud_DeleteCart_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.DeleteCart*"></a>
+  <h4 id="SoundParadise_Web_Models_Cart_CartCrud_DeleteCart_System_Guid_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.DeleteCart(System.Guid)">DeleteCart(Guid)</h4>
+  <div class="markdown level1 summary"><p>Delete Cart from data base.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DeleteCart(Guid cartId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">cartId</span></td>
+        <td><p>Cart Id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if delete, false if error.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Models_Cart_CartCrud_GetAllCarts.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Models.Cart.CartCrud.GetAllCarts%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Models/Cart/CartCrud.cs/#L80">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Models_Cart_CartCrud_GetAllCarts_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.GetAllCarts*"></a>
+  <h4 id="SoundParadise_Web_Models_Cart_CartCrud_GetAllCarts" data-uid="SoundParadise.Web.Models.Cart.CartCrud.GetAllCarts">GetAllCarts()</h4>
+  <div class="markdown level1 summary"><p>Get all carts.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;CartModel&gt; GetAllCarts()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SoundParadise.Web.Models.Cart.CartModel.html">CartModel</a>&gt;</td>
+        <td><p>List of CartModel objects</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Models_Cart_CartCrud_GetCartById_System_Guid_.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Models.Cart.CartCrud.GetCartById(System.Guid)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Models/Cart/CartCrud.cs/#L139">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Models_Cart_CartCrud_GetCartById_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.GetCartById*"></a>
+  <h4 id="SoundParadise_Web_Models_Cart_CartCrud_GetCartById_System_Guid_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.GetCartById(System.Guid)">GetCartById(Guid)</h4>
+  <div class="markdown level1 summary"><p>Get cart by Id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CartModel GetCartById(Guid Id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">Id</span></td>
+        <td><p>Cart Id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SoundParadise.Web.Models.Cart.CartModel.html">CartModel</a></td>
+        <td><p>List of CartModel objects</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Models_Cart_CartCrud_GetCartByUserId_System_Guid_.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Models.Cart.CartCrud.GetCartByUserId(System.Guid)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Models/Cart/CartCrud.cs/#L99">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Models_Cart_CartCrud_GetCartByUserId_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.GetCartByUserId*"></a>
+  <h4 id="SoundParadise_Web_Models_Cart_CartCrud_GetCartByUserId_System_Guid_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.GetCartByUserId(System.Guid)">GetCartByUserId(Guid)</h4>
+  <div class="markdown level1 summary"><p>Get cart by user Id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;CartItemDtoProduct&gt; GetCartByUserId(Guid userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>User Id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SoundParadise.Web.Dto.CartItem.CartItemDtoProduct.html">CartItemDtoProduct</a>&gt;</td>
+        <td><p>List of CartItemDtoProduct objects</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Models_Cart_CartCrud_GetCartIdByUserId_System_Guid_.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Models.Cart.CartCrud.GetCartIdByUserId(System.Guid)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Models/Cart/CartCrud.cs/#L162">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Models_Cart_CartCrud_GetCartIdByUserId_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.GetCartIdByUserId*"></a>
+  <h4 id="SoundParadise_Web_Models_Cart_CartCrud_GetCartIdByUserId_System_Guid_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.GetCartIdByUserId(System.Guid)">GetCartIdByUserId(Guid)</h4>
+  <div class="markdown level1 summary"><p>Get cart Id by user Id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid GetCartIdByUserId(Guid userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>User Id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><p>Cart Id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Models_Cart_CartCrud_GetCartItems_System_Guid_.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Models.Cart.CartCrud.GetCartItems(System.Guid)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Models/Cart/CartCrud.cs/#L181">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Models_Cart_CartCrud_GetCartItems_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.GetCartItems*"></a>
+  <h4 id="SoundParadise_Web_Models_Cart_CartCrud_GetCartItems_System_Guid_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.GetCartItems(System.Guid)">GetCartItems(Guid)</h4>
+  <div class="markdown level1 summary"><p>Get CartItems by cart Id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;CartItemModel&gt; GetCartItems(Guid cartId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">cartId</span></td>
+        <td><p>Cart Id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SoundParadise.Web.Models.CartItem.CartItemModel.html">CartItemModel</a>&gt;</td>
+        <td><p>List of CartItemModel objects</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Models_Cart_CartCrud_RemoveCartItem_System_Guid_System_Guid_.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Models.Cart.CartCrud.RemoveCartItem(System.Guid%2CSystem.Guid)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Models/Cart/CartCrud.cs/#L352">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Models_Cart_CartCrud_RemoveCartItem_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.RemoveCartItem*"></a>
+  <h4 id="SoundParadise_Web_Models_Cart_CartCrud_RemoveCartItem_System_Guid_System_Guid_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.RemoveCartItem(System.Guid,System.Guid)">RemoveCartItem(Guid, Guid)</h4>
+  <div class="markdown level1 summary"><p>Delete Cart from data base.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RequestResult RemoveCartItem(Guid cartId, Guid productId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">cartId</span></td>
+        <td><p>Cart Id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">productId</span></td>
+        <td><p>Product Id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SoundParadise.Web.Controllers.Api.RequestResult.html">RequestResult</a></td>
+        <td><p>RequestResult object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Models_Cart_CartCrud_UpdateCart_SoundParadise_Web_Models_Cart_CartModel_.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Models.Cart.CartCrud.UpdateCart(SoundParadise.Web.Models.Cart.CartModel)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Models/Cart/CartCrud.cs/#L252">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Models_Cart_CartCrud_UpdateCart_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.UpdateCart*"></a>
+  <h4 id="SoundParadise_Web_Models_Cart_CartCrud_UpdateCart_SoundParadise_Web_Models_Cart_CartModel_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.UpdateCart(SoundParadise.Web.Models.Cart.CartModel)">UpdateCart(CartModel)</h4>
+  <div class="markdown level1 summary"><p>Update Cart in data base.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateCart(CartModel cart)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SoundParadise.Web.Models.Cart.CartModel.html">CartModel</a></td>
+        <td><span class="parametername">cart</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>List of CartItemModel objects</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Models_Cart_CartCrud_UpdateCartItemQuantity_System_Guid_System_Guid_System_Int16_.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Models.Cart.CartCrud.UpdateCartItemQuantity(System.Guid%2CSystem.Guid%2CSystem.Int16)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Models/Cart/CartCrud.cs/#L274">View Source</a>
+  </span>
+  <a id="SoundParadise_Web_Models_Cart_CartCrud_UpdateCartItemQuantity_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.UpdateCartItemQuantity*"></a>
+  <h4 id="SoundParadise_Web_Models_Cart_CartCrud_UpdateCartItemQuantity_System_Guid_System_Guid_System_Int16_" data-uid="SoundParadise.Web.Models.Cart.CartCrud.UpdateCartItemQuantity(System.Guid,System.Guid,System.Int16)">UpdateCartItemQuantity(Guid, Guid, short)</h4>
+  <div class="markdown level1 summary"><p>Update CartItem quantity in data base.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RequestResult UpdateCartItemQuantity(Guid cartId, Guid cartItemId, short quantity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">cartId</span></td>
+        <td><p>Cart Id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">cartItemId</span></td>
+        <td><p>CartItem Id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></td>
+        <td><span class="parametername">quantity</span></td>
+        <td><p>Quantity</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SoundParadise.Web.Controllers.Api.RequestResult.html">RequestResult</a></td>
+        <td><p>List of CartItemModel objects</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="SoundParadise.Web.Interfaces.ICartCrud.html">ICartCrud</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/curiousvlxd/SoundParadise.Web/new/dev/apiSpec/new?filename=SoundParadise_Web_Models_Cart_CartCrud.md&amp;value=---%0Auid%3A%20SoundParadise.Web.Models.Cart.CartCrud%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/curiousvlxd/SoundParadise.Web/blob/dev/SoundParadise.Web/Models/Cart/CartCrud.cs/#L13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+        
+        <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
